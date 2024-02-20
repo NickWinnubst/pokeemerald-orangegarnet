@@ -4780,6 +4780,17 @@ Route134_Text_HudsonPostBattle:
 	.string "My buddy's a timid fellow, so I'm\n"
 	.string "worried about him.$"
 
+Route201_Text_DwayneIntro:
+	.string "Hahah! Our eyes met!\n"
+	.string "I'll take you on with my ROCK POKéMON!$"
+
+Route201_Text_DwayneDefeated:
+	.string "Ow! Down and out!$"
+
+Route201_Text_DwaynePostBattle:
+	.string "This big rock,\n"
+	.string "is an ancient burial ground.$"
+
 VSSeeker_Text_BatteryNotChargedNeedXSteps::
 	.string "The battery isn't charged enough.\p"
 	.string "No. of steps required to fully\n"
