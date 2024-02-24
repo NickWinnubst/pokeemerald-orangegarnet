@@ -1221,7 +1221,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges:
 	.string "Head for ZWOLLE beyond this\n"
 	.string "town.\p"
 	.string "There, you should challenge\n"
-	.string "the GYM LEADER, ROXANNE.\p"
+	.string "the GYM LEADER, NIKKIE.\p"
 	.string "After her, go on to other POKéMON\n"
 	.string "GYMS and defeat their LEADERS.\p"
 	.string "Collect BADGES from them,\n"
