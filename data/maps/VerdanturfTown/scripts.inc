@@ -99,13 +99,13 @@ VerdanturfTown_Text_GuyTryingToBustThroughCave:
 	.string "bust up boulders so he can bust out\l"
 	.string "through to the other side.\p"
 	.string "It'd be great if we could go through…\n"
-	.string "It'll make it easy to visit RUSTBORO.$"
+	.string "It'll make it easy to visit ZWOLLE.$"
 
 VerdanturfTown_Text_EasyToGetToRustboroNow:
 	.string "That cave next to the POKéMON MART\n"
 	.string "is now a tunnel to the other side.\p"
 	.string "It's great--it's easy to go shop for\n"
-	.string "new DEVON products in RUSTBORO now.$"
+	.string "new DEVON products in ZWOLLE now.$"
 
 VerdanturfTown_Text_TownSign:
 	.string "LELYSTAD\p"
@@ -121,7 +121,7 @@ VerdanturfTown_Text_BattleTentSign:
 
 VerdanturfTown_Text_RusturfTunnelSign:
 	.string "RUSTURF TUNNEL\n"
-	.string "“Linking RUSTBORO and VERDANTURF\p"
+	.string "“Linking ZWOLLE and VERDANTURF\p"
 	.string "“The tunnel project has been\n"
 	.string "canceled.”$"
 
