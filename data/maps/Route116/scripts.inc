@@ -15,7 +15,7 @@ Route116_OnTransition:
 	end
 
 Route116_EventScript_SetWandasBoyfriendPos::
-	setobjectxyperm LOCALID_WANDAS_BF_OUTSIDE, 38, 10
+	setobjectxyperm LOCALID_WANDAS_BF_OUTSIDE, 62, 7
 	return
 
 Route116_OnLoad:
@@ -61,9 +61,9 @@ Route116_EventScript_GiveRepeatBall::
 	msgbox Route116_Text_NewBallAvailableAtMart, MSGBOX_DEFAULT
 	closemessage
 	call_if_eq VAR_FACING, DIR_NORTH, Route116_EventScript_DevonEmployeeExit
-	call_if_eq VAR_FACING, DIR_SOUTH, Route116_EventScript_DevonEmployeeExit
+	call_if_eq VAR_FACING, DIR_SOUTH, Route116_EventScript_DevonEmployeeExitSouth
 	call_if_eq VAR_FACING, DIR_WEST, Route116_EventScript_DevonEmployeeExit
-	call_if_eq VAR_FACING, DIR_EAST, Route116_EventScript_DevonEmployeeExitEast
+	call_if_eq VAR_FACING, DIR_EAST, Route116_EventScript_DevonEmployeeExit
 	removeobject VAR_LAST_TALKED
 	clearflag FLAG_HIDE_RUSTBORO_CITY_DEVON_CORP_3F_EMPLOYEE
 	setflag FLAG_RECEIVED_REPEAT_BALL
@@ -75,8 +75,8 @@ Route116_EventScript_DevonEmployeeExit::
 	waitmovement 0
 	return
 
-Route116_EventScript_DevonEmployeeExitEast::
-	applymovement VAR_LAST_TALKED, Route116_Movement_DevonEmployeeExitEast
+Route116_EventScript_DevonEmployeeExitSouth::
+	applymovement VAR_LAST_TALKED, Route116_Movement_DevonEmployeeExitSouth
 	waitmovement 0
 	return
 
@@ -91,27 +91,28 @@ Route116_EventScript_NoRoomForRepeatBall::
 	end
 
 Route116_Movement_DevonEmployeeExit:
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
+	walk_down
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
 	step_end
 
-Route116_Movement_DevonEmployeeExitEast:
+Route116_Movement_DevonEmployeeExitSouth:
+	walk_right
 	walk_down
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
 	step_end
 
 Route116_EventScript_RouteSignRustboro::
@@ -403,7 +404,7 @@ Route116_Text_ThankYouTokenOfAppreciation:
 
 Route116_Text_NewBallAvailableAtMart:
 	.string "Our new POKé BALL will be available\n"
-	.string "at the POKéMON MART in RUSTBORO.\p"
+	.string "at the POKéMON MART in ZWOLLE.\p"
 	.string "Please do try it out!\n"
 	.string "Thank you and bye-bye!$"
 
@@ -444,7 +445,7 @@ Route116_Text_NotWhatImLookingFor:
 
 Route116_Text_RouteSignRustboro:
 	.string "ROUTE 116\n"
-	.string "{LEFT_ARROW} ZWOLLE$"
+	.string "{RIGHT_ARROW} ZWOLLE$"
 
 Route116_Text_RusturfTunnelSign:
 	.string "RUSTURF TUNNEL\n"

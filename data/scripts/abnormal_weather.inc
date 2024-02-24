@@ -19,13 +19,13 @@ AbnormalWeather_EventScript_PlaceTilesRoute115East::
 	return
 
 AbnormalWeather_EventScript_PlaceTilesRoute116North::
-	setmetatile 59, 12, METATILE_General_CaveEntrance_Top, TRUE
-	setmetatile 59, 13, METATILE_General_CaveEntrance_Bottom, FALSE
+	setmetatile 54, 5, METATILE_General_CaveEntrance_Top, TRUE
+	setmetatile 54, 6, METATILE_General_CaveEntrance_Bottom, FALSE
 	return
 
 AbnormalWeather_EventScript_PlaceTilesRoute116South::
-	setmetatile 79, 5, METATILE_General_CaveEntrance_Top, TRUE
-	setmetatile 79, 6, METATILE_General_CaveEntrance_Bottom, FALSE
+	setmetatile 54, 5, METATILE_General_CaveEntrance_Top, TRUE
+	setmetatile 54, 6, METATILE_General_CaveEntrance_Bottom, FALSE
 	return
 
 AbnormalWeather_EventScript_PlaceTilesRoute118East::
@@ -241,13 +241,13 @@ AbnormalWeather_EventScript_CleanupRoute115East::
 	return
 
 AbnormalWeather_EventScript_CleanupRoute116North::
-	setmetatile 59, 12, METATILE_General_RockWall_RockBase, TRUE
-	setmetatile 59, 13, METATILE_General_RockWall_RockBase, TRUE
+	setmetatile 37, 5, METATILE_General_RockWall_RockBase, TRUE
+	setmetatile 37, 6, METATILE_General_RockWall_RockBase, TRUE
 	return
 
 AbnormalWeather_EventScript_CleanupRoute116South::
-	setmetatile 79, 5, METATILE_General_RockWall_RockBase, TRUE
-	setmetatile 79, 6, METATILE_General_RockWall_RockBase, TRUE
+	setmetatile 54, 5, METATILE_General_RockWall_RockBase, TRUE
+	setmetatile 54, 6, METATILE_General_RockWall_RockBase, TRUE
 	return
 
 AbnormalWeather_EventScript_CleanupRoute118East::
