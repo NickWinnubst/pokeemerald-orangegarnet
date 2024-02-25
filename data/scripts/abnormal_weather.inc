@@ -39,33 +39,33 @@ AbnormalWeather_EventScript_PlaceTilesRoute118West::
 	return
 
 AbnormalWeather_EventScript_PlaceTilesRoute105North::
-	setmetatile 10, 28, METATILE_General_RoughWater, FALSE
-	setmetatile 11, 28, METATILE_General_RoughWater, FALSE
-	setmetatile 9, 29, METATILE_General_RoughWater, FALSE
-	setmetatile 10, 29, METATILE_General_RoughDeepWater, FALSE
-	setmetatile 11, 29, METATILE_General_RoughDeepWater, FALSE
-	setmetatile 12, 29, METATILE_General_RoughWater, FALSE
-	setmetatile 9, 30, METATILE_General_RoughWater, FALSE
-	setmetatile 10, 30, METATILE_General_RoughDeepWater, FALSE
-	setmetatile 11, 30, METATILE_General_RoughDeepWater, FALSE
-	setmetatile 12, 30, METATILE_General_RoughWater, FALSE
-	setmetatile 10, 31, METATILE_General_RoughWater, FALSE
-	setmetatile 11, 31, METATILE_General_RoughWater, FALSE
+	setmetatile 20, 8, METATILE_General_RoughWater, FALSE
+	setmetatile 21, 8, METATILE_General_RoughWater, FALSE
+	setmetatile 19, 9, METATILE_General_RoughWater, FALSE
+	setmetatile 20, 9, METATILE_General_RoughDeepWater, FALSE
+	setmetatile 21, 9, METATILE_General_RoughDeepWater, FALSE
+	setmetatile 22, 9, METATILE_General_RoughWater, FALSE
+	setmetatile 19, 10, METATILE_General_RoughWater, FALSE
+	setmetatile 20, 10, METATILE_General_RoughDeepWater, FALSE
+	setmetatile 21, 10, METATILE_General_RoughDeepWater, FALSE
+	setmetatile 22, 10, METATILE_General_RoughWater, FALSE
+	setmetatile 20, 11, METATILE_General_RoughWater, FALSE
+	setmetatile 21, 11, METATILE_General_RoughWater, FALSE
 	return
 
 AbnormalWeather_EventScript_PlaceTilesRoute105South::
-	setmetatile 20, 53, METATILE_General_RoughWater, FALSE
-	setmetatile 21, 53, METATILE_General_RoughWater, FALSE
-	setmetatile 19, 54, METATILE_General_RoughWater, FALSE
-	setmetatile 20, 54, METATILE_General_RoughDeepWater, FALSE
-	setmetatile 21, 54, METATILE_General_RoughDeepWater, FALSE
-	setmetatile 22, 54, METATILE_General_RoughWater, FALSE
-	setmetatile 19, 55, METATILE_General_RoughWater, FALSE
-	setmetatile 20, 55, METATILE_General_RoughDeepWater, FALSE
-	setmetatile 21, 55, METATILE_General_RoughDeepWater, FALSE
-	setmetatile 22, 55, METATILE_General_RoughWater, FALSE
-	setmetatile 20, 56, METATILE_General_RoughWater, FALSE
-	setmetatile 21, 56, METATILE_General_RoughWater, FALSE
+	setmetatile 50, 28, METATILE_General_RoughWater, FALSE
+	setmetatile 51, 28, METATILE_General_RoughWater, FALSE
+	setmetatile 49, 29, METATILE_General_RoughWater, FALSE
+	setmetatile 50, 29, METATILE_General_RoughDeepWater, FALSE
+	setmetatile 51, 29, METATILE_General_RoughDeepWater, FALSE
+	setmetatile 52, 29, METATILE_General_RoughWater, FALSE
+	setmetatile 49, 30, METATILE_General_RoughWater, FALSE
+	setmetatile 50, 30, METATILE_General_RoughDeepWater, FALSE
+	setmetatile 51, 30, METATILE_General_RoughDeepWater, FALSE
+	setmetatile 52, 30, METATILE_General_RoughWater, FALSE
+	setmetatile 50, 31, METATILE_General_RoughWater, FALSE
+	setmetatile 51, 31, METATILE_General_RoughWater, FALSE
 	return
 
 AbnormalWeather_EventScript_PlaceTilesRoute125West::
@@ -261,33 +261,33 @@ AbnormalWeather_EventScript_CleanupRoute118West::
 	return
 
 AbnormalWeather_EventScript_CleanupRoute105North::
-	setmetatile 10, 28, METATILE_General_CalmWater, FALSE
-	setmetatile 11, 28, METATILE_General_CalmWater, FALSE
-	setmetatile 9, 29, METATILE_General_CalmWater, FALSE
-	setmetatile 10, 29, METATILE_General_CalmWater, FALSE
-	setmetatile 11, 29, METATILE_General_CalmWater, FALSE
-	setmetatile 12, 29, METATILE_General_CalmWater, FALSE
-	setmetatile 9, 30, METATILE_General_CalmWater, FALSE
-	setmetatile 10, 30, METATILE_General_CalmWater, FALSE
-	setmetatile 11, 30, METATILE_General_CalmWater, FALSE
-	setmetatile 12, 30, METATILE_General_CalmWater, FALSE
-	setmetatile 10, 31, METATILE_General_CalmWater, FALSE
-	setmetatile 11, 31, METATILE_General_CalmWater, FALSE
+	setmetatile 20, 8, METATILE_General_CalmWater, FALSE
+	setmetatile 21, 8, METATILE_General_CalmWater, FALSE
+	setmetatile 19, 9, METATILE_General_CalmWater, FALSE
+	setmetatile 20, 9, METATILE_General_CalmWater, FALSE
+	setmetatile 21, 9, METATILE_General_CalmWater, FALSE
+	setmetatile 22, 9, METATILE_General_CalmWater, FALSE
+	setmetatile 19, 10, METATILE_General_CalmWater, FALSE
+	setmetatile 20, 10, METATILE_General_CalmWater, FALSE
+	setmetatile 21, 10, METATILE_General_CalmWater, FALSE
+	setmetatile 22, 10, METATILE_General_CalmWater, FALSE
+	setmetatile 20, 11, METATILE_General_CalmWater, FALSE
+	setmetatile 21, 11, METATILE_General_CalmWater, FALSE
 	return
 
 AbnormalWeather_EventScript_CleanupRoute105South::
-	setmetatile 20, 53, METATILE_General_CalmWater, FALSE
-	setmetatile 21, 53, METATILE_General_CalmWater, FALSE
-	setmetatile 19, 54, METATILE_General_CalmWater, FALSE
-	setmetatile 20, 54, METATILE_General_CalmWater, FALSE
-	setmetatile 21, 54, METATILE_General_CalmWater, FALSE
-	setmetatile 22, 54, METATILE_General_CalmWater, FALSE
-	setmetatile 19, 55, METATILE_General_CalmWater, FALSE
-	setmetatile 20, 55, METATILE_General_CalmWater, FALSE
-	setmetatile 21, 55, METATILE_General_CalmWater, FALSE
-	setmetatile 22, 55, METATILE_General_CalmWater, FALSE
-	setmetatile 20, 56, METATILE_General_CalmWater, FALSE
-	setmetatile 21, 56, METATILE_General_CalmWater, FALSE
+	setmetatile 50, 28, METATILE_General_CalmWater, FALSE
+	setmetatile 51, 28, METATILE_General_CalmWater, FALSE
+	setmetatile 49, 29, METATILE_General_CalmWater, FALSE
+	setmetatile 50, 29, METATILE_General_CalmWater, FALSE
+	setmetatile 51, 29, METATILE_General_CalmWater, FALSE
+	setmetatile 52, 29, METATILE_General_CalmWater, FALSE
+	setmetatile 49, 30, METATILE_General_CalmWater, FALSE
+	setmetatile 50, 30, METATILE_General_CalmWater, FALSE
+	setmetatile 51, 30, METATILE_General_CalmWater, FALSE
+	setmetatile 52, 30, METATILE_General_CalmWater, FALSE
+	setmetatile 50, 31, METATILE_General_CalmWater, FALSE
+	setmetatile 51, 31, METATILE_General_CalmWater, FALSE
 	return
 
 AbnormalWeather_EventScript_CleanupRoute125West::
@@ -393,11 +393,11 @@ AbnormalWeather_Underwater_SetupEscapeWarp::
 	return
 
 AbnormalWeather_Underwater_SetupEscapeWarpRoute105North::
-	setescapewarp MAP_ROUTE105, 11, 29
+	setescapewarp MAP_ROUTE105, 21, 9
 	return
 
 AbnormalWeather_Underwater_SetupEscapeWarpRoute105South::
-	setescapewarp MAP_ROUTE105, 21, 54
+	setescapewarp MAP_ROUTE105, 50, 29
 	return
 
 AbnormalWeather_Underwater_SetupEscapeWarpRoute125West::

@@ -204,8 +204,8 @@
     {
       "id": "LAYOUT_ROUTE105",
       "name": "Route105_Layout",
-      "width": 40,
-      "height": 80,
+      "width": 80,
+      "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/Route105/border.bin",
@@ -4094,8 +4094,8 @@
     {
       "id": "LAYOUT_UNDERWATER_ROUTE105",
       "name": "Underwater_Route105_Layout",
-      "width": 40,
-      "height": 80,
+      "width": 80,
+      "height": 40,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Underwater",
       "border_filepath": "data/layouts/Underwater_Route105/border.bin",
