@@ -448,8 +448,8 @@ Route116_Text_RouteSignRustboro:
 	.string "{RIGHT_ARROW} ZWOLLE$"
 
 Route116_Text_RusturfTunnelSign:
-	.string "RUSTURF TUNNEL\n"
-	.string "“Linking ZWOLLE and VERDANTURF\p"
+	.string "DRONTERMEER TUNNEL\n"
+	.string "“Linking ZWOLLE and LELYSTAD\p"
 	.string "“The tunnel project has been\n"
 	.string "canceled.”$"
 

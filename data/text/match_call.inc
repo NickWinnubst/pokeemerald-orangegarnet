@@ -2365,7 +2365,7 @@ MatchCall_Text_May3::
 
 MatchCall_Text_May4::
 	.string "MAY: {PLAYER}{KUN}?\p"
-	.string "RUSTURF TUNNEL…\n"
+	.string "DRONTERMEER TUNNEL…\n"
 	.string "They named it that because it\l"
 	.string "joins ZWOLLE and VERDANTURF.$"
 
@@ -2491,7 +2491,7 @@ MatchCall_Text_Brendan3::
 
 MatchCall_Text_Brendan4::
 	.string "BRENDAN: This voice… {PLAYER}?\p"
-	.string "They gave RUSTURF TUNNEL its name\n"
+	.string "They gave DRONTERMEER TUNNEL its name\n"
 	.string "because it joins ZWOLLE and\l"
 	.string "VERDANTURF.\p"
 	.string "Did you know that?$"
@@ -2595,7 +2595,7 @@ MatchCall_Text_Wally1::
 
 MatchCall_Text_Wally2::
 	.string "WALLY: {PLAYER}, hello!\p"
-	.string "After RUSTURF TUNNEL went\n"
+	.string "After DRONTERMEER TUNNEL went\n"
 	.string "through, WANDA's been very happy!$"
 
 MatchCall_Text_Wally3::
@@ -2889,7 +2889,7 @@ MatchCall_Text_MrStone3::
 MatchCall_Text_MrStone4::
 	.string "MR. STONE: Oh! {PLAYER}{KUN}!\p"
 	.string "Did you know that DEVON was\n"
-	.string "digging the RUSTURF TUNNEL?\p"
+	.string "digging the DRONTERMEER TUNNEL?\p"
 	.string "But we shut down the operation to\n"
 	.string "protect the POKéMON in the area.\p"
 	.string "It's a no-brainer, really.\p"
