@@ -19,8 +19,8 @@ RusturfTunnel_OnTransition:
 	end
 
 RusturfTunnel_EventScript_SetAquaGruntAndPeekoPos::
-	setobjectxyperm LOCALID_PEEKO, 13, 4
-	setobjectxyperm LOCALID_GRUNT, 13, 5
+	setobjectxyperm LOCALID_PEEKO, 21, 4
+	setobjectxyperm LOCALID_GRUNT, 21, 5
 	return
 
 RusturfTunnel_EventScript_Wanda::
@@ -143,10 +143,12 @@ RusturfTunnel_EventScript_WandasBoyfriendNotice::
 	return
 
 RusturfTunnel_Movement_WandaExit1:
-	walk_right
-	walk_right
-	walk_right
-	walk_right
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	walk_down
 	walk_down
 	walk_down
@@ -157,10 +159,12 @@ RusturfTunnel_Movement_WandaExit1:
 	step_end
 
 RusturfTunnel_Movement_WandaExit:
-	walk_right
-	walk_right
-	walk_right
-	walk_right
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	walk_down
 	walk_down
 	walk_down
@@ -175,49 +179,51 @@ RusturfTunnel_Movement_PlayerWatchWandaExit:
 	walk_in_place_faster_up
 	delay_16
 	delay_16
-	walk_in_place_faster_right
+	walk_in_place_faster_left
 	step_end
 
 RusturfTunnel_Movement_Unused1:
-	walk_left
-	walk_in_place_faster_right
+	walk_right
+	walk_in_place_faster_left
 	step_end
 
 RusturfTunnel_Movement_Unused2:
 	walk_down
 	walk_in_place_faster_up
 	delay_8
-	walk_in_place_faster_right
+	walk_in_place_faster_left
 	step_end
 
 RusturfTunnel_Movement_Unused3:
 	walk_up
 	walk_in_place_faster_down
 	delay_8
-	walk_in_place_faster_right
+	walk_in_place_faster_left
 	step_end
 
 RusturfTunnel_Movement_PlayerWatchBoyfriend1:
-	walk_left
-	walk_in_place_faster_right
-	step_end
-
-RusturfTunnel_Movement_PlayerWatchBoyfriend:
 	walk_right
 	walk_in_place_faster_left
 	step_end
 
-RusturfTunnel_Movement_BoyfriendFaceRight:
-	walk_up
+RusturfTunnel_Movement_PlayerWatchBoyfriend:
+	walk_left
 	walk_in_place_faster_right
 	step_end
 
+RusturfTunnel_Movement_BoyfriendFaceRight:
+	walk_up
+	walk_in_place_faster_left
+	step_end
+
 RusturfTunnel_Movement_WandasBoyfriendExit1:
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	walk_down
 	walk_down
 	walk_down
@@ -229,10 +235,13 @@ RusturfTunnel_Movement_WandasBoyfriendExit1:
 
 RusturfTunnel_Movement_WandasBoyfriendExit:
 	walk_up
-	walk_right
-	walk_right
-	walk_right
-	walk_right
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	walk_down
 	walk_down
 	walk_down
@@ -243,20 +252,20 @@ RusturfTunnel_Movement_WandasBoyfriendExit:
 	step_end
 
 RusturfTunnel_Movement_WandasBoyfriendApproachPlayer:
-	walk_right
+	walk_left
 	step_end
 
 RusturfTunnel_Movement_BoyfriendApproachWanda1:
 	walk_in_place_fast_up
 	walk_in_place_fast_up
 	walk_fast_up
-	walk_fast_right
+	walk_fast_left
 	step_end
 
 RusturfTunnel_Movement_BoyfriendApproachWanda:
-	walk_in_place_fast_right
-	walk_in_place_fast_right
-	walk_fast_right
+	walk_in_place_fast_left
+	walk_in_place_fast_left
+	walk_fast_left
 	walk_in_place_faster_up
 	step_end
 
@@ -287,7 +296,7 @@ RusturfTunnel_EventScript_AquaGruntBackUp::
 
 RusturfTunnel_Movement_GruntAndPeekoBackUp:
 	lock_facing_direction
-	walk_right
+	walk_left
 	unlock_facing_direction
 	step_end
 
@@ -350,7 +359,7 @@ RusturfTunnel_Movement_PushPlayerAsideForGrunt:
 	lock_facing_direction
 	walk_up
 	unlock_facing_direction
-	walk_in_place_faster_left
+	walk_in_place_faster_right
 	step_end
 
 RusturfTunnel_Movement_PlayerMoveAsideForBriney:
@@ -359,63 +368,63 @@ RusturfTunnel_Movement_PlayerMoveAsideForBriney:
 	step_end
 
 RusturfTunnel_Movement_GruntEscape:
-	walk_fast_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_left
-	walk_fast_left
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
+	walk_fast_right
 	step_end
 
 RusturfTunnel_Movement_BrineyApproachPeeko1:
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
-	walk_right
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
 	step_end
 
 RusturfTunnel_Movement_BrineyExit:
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
 	step_end
 
 RusturfTunnel_Movement_PlayerWatchBrineyExit:
 	delay_16
 	delay_8
 	delay_4
-	walk_in_place_faster_left
+	walk_in_place_faster_right
 	step_end
 
 RusturfTunnel_Movement_BrineyApproachPeeko2:
 	delay_16
-	walk_right
+	walk_left
 	step_end
 
 RusturfTunnel_Movement_PeekoExit:
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
-	walk_left
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
+	walk_right
 	step_end
 
 RusturfTunnel_EventScript_Mike::
