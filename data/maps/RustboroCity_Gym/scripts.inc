@@ -236,7 +236,7 @@ RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … Beep!\p"
 	.string "NIKKIE: Oh, hello, {PLAYER}?\n"
 	.string "This is NIKKIE of ZWOLLE.\p"
-	.string "I heard from BRAWLY that you're\n"
+	.string "I heard from JAN that you're\n"
 	.string "moving up through the ranks of\l"
 	.string "TRAINERS at an incredible clip.\p"
 	.string "Well, I'd rather not think that\n"
