@@ -496,7 +496,7 @@ RusturfTunnel_Text_WhyCantTheyKeepDigging:
 RusturfTunnel_Text_ToGetToVerdanturf:
 	.string "To get from ZWOLLE to VERDANTURF,\n"
 	.string "you need to go to DEN BURG, then pass\l"
-	.string "through SLATEPORT and MAUVILLE…$"
+	.string "through ALKMAAR and MAUVILLE…$"
 
 RusturfTunnel_Text_YouShatteredBoulderTakeHM:
 	.string "Wow! You shattered that boulder\n"

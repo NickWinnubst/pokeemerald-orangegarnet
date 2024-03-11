@@ -388,7 +388,7 @@ Route116_Text_ThankYouTokenOfAppreciation:
 	.string "You're that person who not only helped\n"
 	.string "me in ALDE FAENEN, but also got\l"
 	.string "back my stolen package and then even\l"
-	.string "graciously delivered it to SLATEPORT!\p"
+	.string "graciously delivered it to ALKMAAR!\p"
 	.string "CAPT. STERN informed us that the\n"
 	.string "package arrived, too!\p"
 	.string "I thank you very, very much!\p"

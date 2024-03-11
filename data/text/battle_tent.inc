@@ -214,7 +214,7 @@ VerdanturfTown_BattleTentLobby_Text_PresentYouWithPrize:
 
 SlateportCity_BattleTentLobby_Text_WelcomeToBattleTent:
 	.string "Welcome to the BATTLE TENT\n"
-	.string "SLATEPORT SITE!\p"
+	.string "ALKMAAR SITE!\p"
 	.string "I am your guide to the Battle Swap\n"
 	.string "Tournament.$"
 
@@ -223,7 +223,7 @@ SlateportCity_BattleTentLobby_Text_TakeChallenge:
 	.string "Swap challenge?$"
 
 SlateportCity_BattleTentLobby_Text_ExplainSlateportTent:
-	.string "Here at the SLATEPORT BATTLE TENT,\n"
+	.string "Here at the ALKMAAR BATTLE TENT,\n"
 	.string "we hold Battle Swap events\l"
 	.string "using rental POKéMON.\p"
 	.string "First, you will be loaned three\n"
@@ -351,7 +351,7 @@ SlateportCity_BattleTentLobby_Text_ExplainSwapNotes:
 	.string "even when swaps are made.$"
 
 SlateportCity_BattleTentLobby_Text_ExplainMonRules:
-	.string "The POKéMON of the SLATEPORT\n"
+	.string "The POKéMON of the ALKMAAR\n"
 	.string "BATTLE TENT are all rentals.\p"
 	.string "All rental POKéMON are kept at\n"
 	.string "Level 30.$"

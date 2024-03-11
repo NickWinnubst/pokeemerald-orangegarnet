@@ -748,7 +748,7 @@ Route110_Text_WeCantTalkAboutAquaActivities:
 	.string "We can't talk about them yet.$"
 
 Route110_Text_KickUpARuckus:
-	.string "I want to get going to SLATEPORT and\n"
+	.string "I want to get going to ALKMAAR and\n"
 	.string "kick up a ruckus!$"
 
 Route110_Text_MyFirstJobInAqua:
@@ -897,7 +897,7 @@ Route110_Text_ChallengeReactionWorst:
 Route110_Text_RatedForNumberOfCollisions:
 	.string "This is CYCLING ROAD.\p"
 	.string "If you were to ride from MAUVILLE to\n"
-	.string "SLATEPORT on a MACH BIKE, you would\l"
+	.string "ALKMAAR on a MACH BIKE, you would\l"
 	.string "be rated for the number of collisions\l"
 	.string "and your total time.$"
 
