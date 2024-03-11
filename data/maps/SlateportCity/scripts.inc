@@ -60,12 +60,12 @@ SlateportCity_EventScript_SetReadyForScottScene::
 	setflag FLAG_HIDE_MAP_NAME_POPUP
 	getplayerxy VAR_0x8004, VAR_0x8005
 	goto_if_eq VAR_0x8004, 30, SlateportCity_EventScript_MoveScottLeft
-	setobjectxyperm LOCALID_SCOTT, 23, 27
+	setobjectxyperm LOCALID_SCOTT, 24, 17
 	setobjectmovementtype LOCALID_SCOTT, MOVEMENT_TYPE_FACE_RIGHT
 	return
 
 SlateportCity_EventScript_MoveScottLeft::
-	setobjectxyperm LOCALID_SCOTT, 22, 27
+	setobjectxyperm LOCALID_SCOTT, 23, 17
 	setobjectmovementtype LOCALID_SCOTT, MOVEMENT_TYPE_FACE_RIGHT
 	return
 
@@ -101,7 +101,7 @@ SlateportCity_EventScript_ScottScene::
 	applymovement LOCALID_SCOTT, SlateportCity_Movement_ScottExit
 	waitmovement 0
 	removeobject LOCALID_SCOTT
-	setobjectxyperm LOCALID_SCOTT, 10, 12
+	setobjectxyperm LOCALID_SCOTT, 11, 50
 	setobjectmovementtype LOCALID_SCOTT, MOVEMENT_TYPE_FACE_DOWN
 	clearflag FLAG_HIDE_MAP_NAME_POPUP
 	setvar VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE, 2
@@ -897,13 +897,13 @@ SlateportCity_EventScript_ScottBattleTentScene::
 	lockall
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
 	waitmovement 0
-	opendoor 10, 12
+	opendoor 11, 50
 	waitdooranim
 	addobject LOCALID_SCOTT
 	applymovement OBJ_EVENT_ID_PLAYER, SlateportCity_Movement_PushPlayerDown
 	applymovement LOCALID_SCOTT, SlateportCity_Movement_ScottExitBattleTent
 	waitmovement 0
-	closedoor 10, 12
+	closedoor 11, 50
 	waitdooranim
 	msgbox SlateportCity_Text_TakingBattleTentChallenge, MSGBOX_DEFAULT
 	closemessage
