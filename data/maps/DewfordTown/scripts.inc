@@ -174,7 +174,7 @@ DewfordTown_EventScript_SailToSlateport::
 	waitmovement 0
 	setobjectxyperm LOCALID_BRINEY_R109, 21, 42
 	addobject LOCALID_BRINEY_R109
-	setobjectsubpriority LOCALID_BRINEY_R109, MAP_ROUTE109, 0
+	setobjectsubpriority LOCALID_BRINEY_R109, MAP_ROUTE109, 2
 	applymovement LOCALID_BRINEY_R109, DewfordTown_Movement_BrineyExitBoat
 	waitmovement 0
 	clearflag FLAG_HIDE_ROUTE_109_MR_BRINEY
