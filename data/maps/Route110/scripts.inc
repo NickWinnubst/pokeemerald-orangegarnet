@@ -529,50 +529,50 @@ Route110_EventScript_MoveRival3::
 	return
 
 Route110_Movement_RivalApproachPlayer1:
-	walk_down
+	walk_up
 	walk_left
-	walk_in_place_faster_down
+	walk_in_place_faster_up
 	step_end
 
 Route110_Movement_RivalApproachPlayer2:
-	walk_down
+	walk_up
 	step_end
 
 Route110_Movement_RivalApproachPlayer3:
-	walk_down
+	walk_up
 	walk_right
-	walk_in_place_faster_down
+	walk_in_place_faster_up
 	step_end
 
 Route110_Movement_RivalExit1:
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	step_end
-
-Route110_Movement_RivalExit2:
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
 	walk_fast_down
 	step_end
 
+Route110_Movement_RivalExit2:
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_up
+	step_end
+
 Route110_Movement_RivalExit3:
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
-	walk_fast_up
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
+	walk_fast_down
 	step_end
 
 Route110_EventScript_BirchScene1::
